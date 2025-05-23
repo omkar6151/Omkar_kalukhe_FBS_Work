@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .grid-container{
+            display: grid;
+            height: 400px;
+            width: 300px;
+            border: 2px solid black;
+            grid-template-columns:auto auto auto;
+            margin: 100px auto;
+            justify-content: space-around;
+            gap: 10px 10px;
+            padding: 10px;
+        }
+        .grid-item{
+            width: 60px;
+            height: 60px;
+            /* background-color: red; */
+            /* border: 2px solid blue; */
+            text-align: center;
+            border-radius: 100%;
+        }
+        .inpfield{
+            height: 40px;
+            grid-column: span 3;
+            padding: 5px;
+        }
+        button{
+            width: 60px;
+            height: 60px;
+            /* background-color: red; */
+            border: 2px solid blue;
+            text-align: center;
+            border-radius: 100%;
+        }
+        .eqbtn{
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+            border: 2px solid blue;
+            background-color: red;
+        }
+        button:hover{
+            background-color: blue;
+            border-radius: 2px solid red;
+        }
+        .eqbtn:hover{
+            background-color: blue;
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <input type="text" class="inpfield">
+        <div class="grid-item" ><button>1</button></div>
+        <div class="grid-item" ><button>2</button></div>
+        <div class="grid-item" ><button>3</button></div>
+        <div class="grid-item" ><button>4</button></div>
+        <div class="grid-item" ><button>5</button></div>
+        <div class="grid-item" ><button>6</button></div>
+        <div class="grid-item" ><button>7</button></div>
+        <div class="grid-item" ><button>8</button></div>
+        <div class="grid-item" ><button>9</button></div>
+        <div class="grid-item" ><button>0</button></div>
+        <div class="grid-item" ><button>+</button></div>
+        <div class="grid-item" ><button>-</button></div>
+        <div class="grid-item" ><button>*</button></div>
+        <div class="grid-item" ><button>/</button></div>
+        <div ><button class="eqbtn">=</button></div>
+        
+
+    </div>
+</body>
+</html>

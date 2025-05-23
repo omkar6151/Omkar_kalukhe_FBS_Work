@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/dummy">
+      <label for="username">Enter name</label> <input type="text" name="name" id="name"><br>
+       Enter password <input type="password" name="password"><br>
+       Enter mobile <input type="number" name="mobile"><br>
+       
+       Gender:
+       <input type="radio" name="gender" value="m">Male
+       <input type="radio" name="gender" value="f">Female
+       <input type="radio" name="gender" value="oth">Other <br>
+
+       Date:
+       <input type="date"><br>
+       Color:
+       <input type="color"><br>
+       URL:
+       <input type="url"><br>
+
+       Number: <a href="tel:9975884451">9975884451</a><br>
+       Email:<a href="mailto:omkarkalukhe10@gmail.com" target="_blank" onclick="window.open('/dummy')">omkarkalukhe10@gmail.com</a><br>
+
+       Subject:
+       <input type="checkbox" name="sub1">C
+       <input type="checkbox" name="sub2">C++
+       <input type="checkbox" name="sub3">Java
+       <input type="checkbox" name="sub4">Python <br>
+       
+       Range<input type="range" name="Range"><br>
+
+       State:<select name="state">
+        <option>Maharashtra</option>
+        <option>Karnataka</option>
+        <option>Rajasthan</option>
+        <option>Punjab</option><br>
+
+
+       
+        <input type="file" name="file"><br>
+
+        State: <input type="text" name="state" list="statelist">
+        <datalist id="statelist">
+            <option value="Chrome"></option>
+            <option value="Firefox"></option>
+            <option value="Safari"></option>
+            <option value="Edge"></option>
+            <option value="Opera"></option>
+        </datalist> <br>
+
+       <input type="submit" value="click">
+    </form>
+    
+</body>
+</html>
